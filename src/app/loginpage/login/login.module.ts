@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LoginRoutingModule } from './login-routing.module';
 import { LandingModule } from '../../landing/landing/landing.module';
+import { MainModule } from 'src/app/dashboard/main/main.module';
+
 
 
 @NgModule({
@@ -11,8 +13,8 @@ import { LandingModule } from '../../landing/landing/landing.module';
   imports: [
     CommonModule,
     LoginRoutingModule,
-    LandingModule
-    
+    LandingModule,
+    MainModule
   ]
 })
 export class LoginModule { }
