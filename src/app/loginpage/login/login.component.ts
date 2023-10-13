@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, ReactiveFormsModule,FormsModule} from '@angular/forms';
 import { Router } from '@angular/router';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { AuthService } from 'src/app/auth.service';
 
 @Component({
@@ -11,6 +12,7 @@ import { AuthService } from 'src/app/auth.service';
   standalone: true,
 })
 export class LoginComponent {
+  faCoffee = faCoffee;
 
   form: FormGroup = this.fb.group({
     name:['', Validators.required],
@@ -29,9 +31,6 @@ login(){
   }else{
     this.router.navigateByUrl('/main');
   }
-
-
 }
-
 
 }

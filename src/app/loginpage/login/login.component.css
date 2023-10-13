@@ -11,13 +11,73 @@
     color:#fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* border:1px solid red; */
+    align-items: start;
+    border:1px solid red;
+    padding:30px 0px;
   }
 
- .content{
-    
- }
+  .header-text{
+    padding: 10px;
+  }
+
+  h1, p{
+    padding:0px;
+    margin:0px;
+  }
+
+  .quote-text {
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom:10px;
+  }
+
+  .sub-text{
+    font-weight: 100;
+    font-size:16px;
+    width:60%;
+    color:rgb(227, 229, 231);
+    line-height: 25px;
+  }
+
+  .contact-details{
+    margin-top: 70px;
+
+  }
+
+  ul li{
+    list-style: none;
+    padding:10px;
+    font-size: 16px;
+    width:60%;
+    margin:5px;
+  }
+
+  .activeli{
+    border:1px solid blue;
+    border-radius:5px;
+    width: inherit;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .icons{
+    margin-left: 40px;
+  }
+
+  .active{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: black;
+  }
 
   .form-section{
     width: 50%;
