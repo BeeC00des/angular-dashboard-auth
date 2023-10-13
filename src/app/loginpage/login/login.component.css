@@ -1,5 +1,5 @@
  .container {
-    background-color:rgb(42, 7, 87);
+    background-color:rgb(17, 6, 67);;
     box-sizing: border-box;
     height: 100vh;
     display: flex;
@@ -22,6 +22,10 @@
   h1, p{
     padding:0px;
     margin:0px;
+  }
+
+  i{
+    margin-right: 7px;
   }
 
   .quote-text {
