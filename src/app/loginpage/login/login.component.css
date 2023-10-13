@@ -5,6 +5,12 @@
     display: flex;
     padding: 30px  50px;
   }
+
+  @media screen (max-width:600px) {
+    .container{
+        display: block;
+    }
+  }
   
   .text-section{
     width: 50%;
