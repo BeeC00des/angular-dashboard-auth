@@ -36,8 +36,11 @@ export class AuthService {
      return user;
    }
 
+
+   // this is where the logic should be to fetch data from form a
    getUserData(){
-     this.formData = this.userData;
+     this.formData = this.session;
+     console.log(this.formData);
 
      return  this.formData;
    }

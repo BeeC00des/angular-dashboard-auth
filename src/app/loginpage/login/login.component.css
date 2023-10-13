@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
+    /* border:1px solid red; */
   }
 
  .content{
@@ -21,7 +21,7 @@
 
   .form-section{
     width: 50%;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
