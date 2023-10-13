@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 import { MainComponent } from './dashboard/main/main.component';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 const appRoutes: Routes = [
@@ -21,6 +22,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only

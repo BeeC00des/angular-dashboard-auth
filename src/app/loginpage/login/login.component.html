@@ -16,21 +16,21 @@
         </div>
         
     </div>
-    <div class="form-section">
-        <div class='form-card'>
+    <div class="form-section" >
+        <form class='form-card' [formGroup]="form">
             <div>
                 <label>Your name</label><br/>
-                <input class='form-first' type='text' placeholder='Fullname'>    
+                <input class='form-first' type='text' placeholder='Fullname'  formControlName="name">    
             </div>
             <div>
                 <label>Mail</label><br/>
-                <input class='form-email' type='email' placeholder='Email'>   
+                <input class='form-email' type='email' placeholder='Email'  formControlName="email">   
             </div>
             <div>
                 <label>Message</label><br/>
                 <textArea class='form-comment' placeholder='Comment...'></textArea>
             </div>
-                <button routerLink="/main" class='form-submit' type="submit" >Send Message</button>
-          </div>
-    </div>
-</div>
+                <button (click) ="login()" [disabled]="!form.valid" class='form-submit' type="submit" >Send Message</button>
+               <!-- <span> {{form.value || json}} </span> -->
+        </form> 
+</div> 
