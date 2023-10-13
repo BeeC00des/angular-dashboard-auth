@@ -45,14 +45,14 @@
 
   ul li{
     list-style: none;
-    padding:10px;
+    padding:15px;
     font-size: 16px;
     width:60%;
     margin:5px;
   }
 
   .activeli{
-    border:1px solid rgb(137, 29, 147);
+    border:2px solid  rgb(56, 114, 237);
     border-radius:5px;
     width: inherit;
   }
@@ -75,8 +75,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    background-color: black;
+    background-color: rgb(56, 114, 237);
   }
+
+  .form-email{
+    border: 1px solid rgb(56, 114, 237);
+  } 
 
   .form-section{
     width: 50%;
@@ -90,11 +94,18 @@
     color: rgb(29, 10, 37);
     font-size:12px;
  }
+
+
   
-  input:focus, textarea:focus { background-color: rgba(255,255,255,0.5); }
+  input:focus, textarea:focus {
+    border: 1px solid rgb(56, 114, 237);
+     /* background-color: rgba(255, 255, 255, 0.712);  */
+     /* border:none;  */
+     outline: none;
+}
   
   .form-card{
-    height:450px;
+    height:470px;
     width:330px;
     border-radius: 5px;
     background-color: #fff;
@@ -109,7 +120,7 @@
   .form-submit {
     box-sizing: border-box;
     appearance: none;
-    background-color: rgb(137, 29, 147);
+    background-color:   rgb(56, 114, 237);
     border:none;
     border-radius: 0.5em;
     color: white;
@@ -120,7 +131,7 @@
     font-weight: 400;
     line-height: 1;
     margin-left: 210px;
-    margin-top: 10px;
+    margin-top: 12px;
     padding: 1.2em 1em;
     text-decoration: none;
     text-align: center;
@@ -147,6 +158,7 @@
     background-color: #f5f5f5;
     border-radius: 5px;
     padding:10px;
+    margin:10px 0px;
     border:none;
   }
   
